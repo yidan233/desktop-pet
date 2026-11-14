@@ -1,0 +1,309 @@
+{
+  "id": "nannan",
+  "name": "nannan",
+  "size": 150,
+  "frameSize": 256,
+  "baseline": 240,
+  "frames": {
+    "yawn": "01_yawn.png",
+    "sleep": "02_sleep.png",
+    "wave": "03_wave.png",
+    "point": "04_point.png",
+    "wave_high": "05_wave_high.png",
+    "ellipsis": "06_ellipsis.png",
+    "wave_small": "07_wave_small.png",
+    "surprise": "08_surprise.png",
+    "think": "09_think.png",
+    "peace": "10_peace.png",
+    "walk_a": "11_walk_a.png",
+    "laugh": "12_laugh.png",
+    "slow_wave": "13_slow_wave.png",
+    "pockets": "14_pockets.png",
+    "walk_b": "15_walk_b.png"
+  },
+  "anim": {
+    "idle": [
+      "ellipsis"
+    ],
+    "idle_alt": [
+      "pockets",
+      "think",
+      "slow_wave"
+    ],
+    "walk": [
+      "walk_a",
+      "walk_b"
+    ],
+    "yawn": [
+      "yawn"
+    ],
+    "sleep": [
+      "sleep"
+    ],
+    "drag": [
+      "surprise"
+    ],
+    "fall": [
+      "surprise"
+    ],
+    "greet": [
+      "slow_wave",
+      "wave"
+    ],
+    "call": [
+      "point"
+    ],
+    "cheer": [
+      "laugh"
+    ],
+    "photo": [
+      "peace"
+    ],
+    "click": [
+      "wave_small",
+      "slow_wave",
+      "surprise",
+      "laugh"
+    ],
+    "signature": [
+      "pockets"
+    ],
+    "chase_chaser": [
+      "point"
+    ],
+    "chase_runner": [
+      "surprise"
+    ],
+    "daze": [
+      "pockets"
+    ]
+  },
+  "lines": {
+    "idle": [
+      "……",
+      "嗯。",
+      "有点困。",
+      "今天也没什么事。",
+      "慢慢来。",
+      "嗯……",
+      "哦。",
+      "风景不错。",
+      "发呆中。",
+      "不急。",
+      "今天……也行吧。"
+    ],
+    "greet": [
+      "哦,你好。",
+      "……嗨。",
+      "嗯,来了。"
+    ],
+    "click": [
+      "……干嘛。",
+      "嗯?",
+      "戳我做什么。",
+      "……嗯。",
+      "别戳了。",
+      "哦,是你。",
+      "你有事吗……没事就好。"
+    ],
+    "signature": [
+      "没什么。",
+      "……就站着。",
+      "嗯。",
+      "……就这样吧。"
+    ],
+    "drag": [
+      "……放下。",
+      "哦,飞起来了。"
+    ],
+    "land": [
+      "……嗯,落地了。",
+      "哦。"
+    ],
+    "yawn": [
+      "好困……"
+    ],
+    "wake": [
+      "……醒了。"
+    ],
+    "chase_chaser": [
+      "……站住。",
+      "慢慢追。"
+    ],
+    "chase_runner": [
+      "我很慢,别追。",
+      "……不跑了。"
+    ],
+    "chase_end": [
+      "……抓到了。",
+      "嗯,结束。"
+    ],
+    "photo": [
+      "……好吧,拍吧。",
+      "嗯,站这儿。"
+    ],
+    "pet_hit": [
+      "……吓到了。"
+    ],
+    "pair": {
+      "sunny": {
+        "greet": [
+          "Sunny……你好吵。",
+          "嗯,Sunny。",
+          "Sunny……早。"
+        ],
+        "admired": [
+          "……Sunny,你又来了。",
+          "……谢谢。"
+        ],
+        "comfort": [
+          "Sunny……休息一下。"
+        ],
+        "see_sleep": [
+          "Sunny睡了……难得安静。"
+        ],
+        "chat": [
+          [
+            "……Sunny。",
+            "在!",
+            "……小声点。",
+            "好!……(小声)兄弟我理解你!"
+          ],
+          [
+            "……你不累吗。",
+            "不累!兄弟需要我!",
+            "……我看着都累。",
+            "那我帮你扛!"
+          ]
+        ]
+      },
+      "mode": {
+        "greet": [
+          "陌德……不要问。",
+          "……不知道。",
+          "陌德……别问我。"
+        ],
+        "comfort": [
+          "陌德……不要问了,休息。"
+        ],
+        "see_sleep": [
+          "陌德睡了……终于没问题了。"
+        ],
+        "chat": [
+          [
+            "……陌德。",
+            "怎么了?你想说什么?",
+            "……不想说。",
+            "那你为什么叫我?"
+          ],
+          [
+            "……陌德,你别问我。",
+            "为什么不能问?",
+            "……因为我会想。",
+            "想,不好吗?"
+          ]
+        ]
+      },
+      "yidan": {
+        "greet": [
+          "yidan……慢点说。",
+          "……你说,我听着。",
+          "yidan……轻点说。"
+        ],
+        "comfort": [
+          "yidan……深呼吸。"
+        ],
+        "see_sleep": [
+          "yidan睡了……世界清净了。"
+        ],
+        "chat": [
+          [
+            "……yidan。",
+            "诶!难难叫我!我跟你讲哦!",
+            "……慢点。",
+            "好好好,我慢慢讲!"
+          ],
+          [
+            "……你不累吗。",
+            "累啊,但我跟你讲,这个事特别重要!",
+            "……嗯。",
+            "你为什么只回一个嗯!"
+          ]
+        ]
+      },
+      "mengyu": {
+        "greet": [
+          "梦羽……别晃。",
+          "嗯,梦羽。",
+          "梦羽……你还好吧。"
+        ],
+        "comfort": [
+          "梦羽……没关系的。"
+        ],
+        "see_sleep": [
+          "梦羽睡了……安静。"
+        ],
+        "chat": [
+          [
+            "……梦羽。",
+            "哎!难难主动找我!",
+            "……别晃。",
+            "好好好我不晃!我不行了!"
+          ],
+          [
+            "……你精力真好。",
+            "是吗?我不行了呀!",
+            "……那就坐下。",
+            "好!陪你坐着!"
+          ]
+        ]
+      }
+    },
+    "daze": [
+      "……在发呆。",
+      "什么都没想。",
+      "……放空。"
+    ],
+    "morning": [
+      "……早。",
+      "还没醒。"
+    ],
+    "noon": [
+      "该吃饭了……吧。"
+    ],
+    "night": [
+      "……还不睡吗。",
+      "夜里很安静。"
+    ],
+    "late": [
+      "……困。"
+    ],
+    "see_sleep": [
+      "……睡得真香。",
+      "嘘。"
+    ],
+    "photo_quip": [
+      "……拍吧。",
+      "快点,我站累了。"
+    ],
+    "collapse": [
+      "……我也不行了。"
+    ],
+    "comfort": [
+      "……没事。",
+      "嗯,慢慢来。",
+      "……我在。"
+    ],
+    "admired": [
+      "……。",
+      "……谢谢。",
+      "……嗯?"
+    ]
+  },
+  "special": {
+    "label": "发呆",
+    "anim": "daze",
+    "line": "daze"
+  },
+  "traits": {}
+}
