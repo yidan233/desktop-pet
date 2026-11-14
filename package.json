@@ -82,7 +82,8 @@
       "gatekeeperAssess": false
     },
     "dmg": {
-      "title": "没有特色"
+      "title": "DesktopPets",
+      "writeUpdateInfo": false
     }
   },
   "author": "desktop-pets"

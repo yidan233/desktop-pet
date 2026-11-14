@@ -16,7 +16,7 @@ jobs:
           - os: windows-latest
             cmd: npm run dist:win
           - os: macos-latest
-            cmd: npm run dist:mac
+            cmd: npm run dist:mac || (sleep 20 && npm run dist:mac) || (sleep 40 && npm run dist:mac)
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
