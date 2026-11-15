@@ -63,13 +63,6 @@
       "category": "public.app-category.entertainment",
       "target": [
         {
-          "target": "dmg",
-          "arch": [
-            "x64",
-            "arm64"
-          ]
-        },
-        {
           "target": "zip",
           "arch": [
             "x64",
@@ -80,10 +73,6 @@
       "identity": null,
       "hardenedRuntime": false,
       "gatekeeperAssess": false
-    },
-    "dmg": {
-      "title": "DesktopPets",
-      "writeUpdateInfo": false
     }
   },
   "author": "desktop-pets"

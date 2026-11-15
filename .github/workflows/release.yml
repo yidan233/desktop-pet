@@ -32,7 +32,7 @@ jobs:
           name: dist-${{ matrix.os }}
           path: |
             dist/*.exe
-            dist/*.dmg
+            dist/*.zip
   publish:
     needs: build
     runs-on: ubuntu-latest
